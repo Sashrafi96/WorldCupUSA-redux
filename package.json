@@ -2,7 +2,7 @@
   "name": "redux-assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sashrafi96.github.io/worldcup-redux",
+  "homepage": "https://Sashrafi96.github.io/WorldCupUSA-redux",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
