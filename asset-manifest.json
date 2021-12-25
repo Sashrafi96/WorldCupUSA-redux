@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WorldCupUSA-redux/static/css/main.cf7eb72d.css",
+    "main.js": "/WorldCupUSA-redux/static/js/main.fd731213.js",
+    "static/js/787.66d500af.chunk.js": "/WorldCupUSA-redux/static/js/787.66d500af.chunk.js",
+    "index.html": "/WorldCupUSA-redux/index.html",
+    "main.cf7eb72d.css.map": "/WorldCupUSA-redux/static/css/main.cf7eb72d.css.map",
+    "main.fd731213.js.map": "/WorldCupUSA-redux/static/js/main.fd731213.js.map",
+    "787.66d500af.chunk.js.map": "/WorldCupUSA-redux/static/js/787.66d500af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf7eb72d.css",
+    "static/js/main.fd731213.js"
+  ]
+}
