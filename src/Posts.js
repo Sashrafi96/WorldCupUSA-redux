@@ -28,22 +28,22 @@ function Posts(props) {
     let goals = 0;
     usaGames.forEach((el) => {
       el.home_team_country === "USA" ? countHomeGames++ : countAwayGames++;
-      el.home_team_country === "USA" && el.winner === "USA"
-        ? countHomeWin++
-        : countAwayWin++;
+      if (el.home_team_country === "USA" && el.winner === "USA") countHomeWin++;
+      else if (el.away_team_country === "USA" && el.winner === "USA")
+        countAwayWin++;
       el.home_team_country === "USA"
         ? (goals += el.home_team.goals)
         : (goals += el.away_team.goals);
     });
     const percentHomeWin = (countHomeWin / countHomeGames) * 100;
     const percentAwayWin = (countAwayWin / countAwayGames) * 100;
-    // console.log("countHomeGames=", countHomeGames);
-    // console.log("countAwayGames=", countAwayGames);
-    // console.log("countHomeWin=", countHomeWin);
-    // console.log("countAwayWin=", countAwayWin);
-    // console.log("goals=", goals);
-    // console.log("percentHomeWin=", percentHomeWin);
-    // console.log("percentAwayWin=", percentAwayWin);
+    console.log("countHomeGames=", countHomeGames);
+    console.log("countAwayGames=", countAwayGames);
+    console.log("countHomeWin=", countHomeWin);
+    console.log("countAwayWin=", countAwayWin);
+    console.log("goals=", goals);
+    console.log("percentHomeWin=", percentHomeWin);
+    console.log("percentAwayWin=", percentAwayWin);
 
     return (
       <div>
