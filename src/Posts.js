@@ -37,13 +37,13 @@ function Posts(props) {
     });
     const percentHomeWin = (countHomeWin / countHomeGames) * 100;
     const percentAwayWin = (countAwayWin / countAwayGames) * 100;
-    console.log("countHomeGames=", countHomeGames);
-    console.log("countAwayGames=", countAwayGames);
-    console.log("countHomeWin=", countHomeWin);
-    console.log("countAwayWin=", countAwayWin);
-    console.log("goals=", goals);
-    console.log("percentHomeWin=", percentHomeWin);
-    console.log("percentAwayWin=", percentAwayWin);
+    // console.log("countHomeGames=", countHomeGames);
+    // console.log("countAwayGames=", countAwayGames);
+    // console.log("countHomeWin=", countHomeWin);
+    // console.log("countAwayWin=", countAwayWin);
+    // console.log("goals=", goals);
+    // console.log("percentHomeWin=", percentHomeWin);
+    // console.log("percentAwayWin=", percentAwayWin);
 
     return (
       <div>
